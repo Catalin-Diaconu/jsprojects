@@ -1,0 +1,56 @@
+#title{
+	position: relative;
+	top: 195px;
+	right:-1180px;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Bradley Hand, cursive;
+}
+#option{
+	font-size: 44px ;
+	background-color: transparent;
+	font-weight: bold;
+	font-family: "New Century Schoolbook",TeX Gyre Schola, serif
+}
+#add{
+height:250px;
+  width: 15%;
+  border: 7px color transparent;
+  padding: 5px;
+  margin: 5px;
+  background: url("add.jpg");
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+#delete{
+height:250px;
+  width: 15%;
+  border: 7px color blue;
+  padding: 5px;
+  margin: 5px;
+	 background: url("delete.jpg");
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+#display{
+height:250px;
+  width: 15%;
+  border: 7px color blue;
+  padding: 5px;
+  margin: 5px;
+	 background: url("edit.jpg");
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+body{
+	background: url("img.jpg");
+	width: 100%;
+	margin-top:5px;	
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+

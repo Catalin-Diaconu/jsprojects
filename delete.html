@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="css/delete.css">
+<head>
+	<title>Delete User</title>
+</head>
+<body>
+  <div id='title'>UsersApp</div>
+	<div ng-app="myApp" ng-controller="deleteController">
+    <div id='title1'>Type the username </div>
+    <form>
+      <p id='pusername'>
+        <label for="deleteUsername">Username: </label>
+        <input type="text"  id="deleteUsername" >
+      </p>
+      <button id='deletebtn' ng-click="deleteUser()">Delete </button>
+      <div id="list">{{ArrayOfUsers}}</div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Users</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" type="text/css" href="css/display.css">
+<body>
+	<div id='title'>UsersApp</div>
+	<div id='title1'>All users registered:</div>
+    <div ng-app="myApp" ng-controller="displayController"> 
+    	<table id='table'>
+    		<tr><td>Id</td><td>Name</td><td>Username</td><td>Email</td></tr>
+    		<tr ng-repeat="user in ArrayOfUsers">
+    			<td>{{ user.id }}</td>
+    			<td>{{ user.name }}</td>
+    			<td>{{ user.username }}</td>
+    			<td>{{ user.email }}</td>
+    		</tr>
+    	</table>
+		<div id="title1">Type the id:</div>
+		<form>
+			<p id="pid">
+				<label for="id2">Id: </label>
+				<input type="text"  id="id2" >
+			</p>
+			<button id='find' ng-click="findId()">Check </button>
+		</form>
+		<div ng-show="correctId">
+			<form>
+				<p id='pname'>
+					<label for="name">Name: </label>
+					<input type="text"  id="name" >
+				</p>
+				<p id='pusername'>
+					<label for="username">Username: </label>
+					<input type="text" id="username">
+				</p>
+				<p id='pemail'>
+					<label for="email">Email: </label>
+					<input type="text" id="email">
+				</p>
+				<button id='editbtn' ng-click="editUser()">Edit </button>		
+			</form>
+		</div>
+	</div>
+</body>
+</html>

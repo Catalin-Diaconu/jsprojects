@@ -1,0 +1,46 @@
+body{
+	background: url("deleteimage.jpg");
+	width: 100%;
+	height: 860px;
+	background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+  #title1{
+	font-size: 34px ;
+	background-color: transparent;
+	font-weight: bold;
+	font-family: "New Century Schoolbook",TeX Gyre Schola, serif
+	padding:25px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+#pusername{
+	font-size: 30px ;
+	background-color: transparent;
+	font-family: "New Century Schoolbook",TeX Gyre Schola, serif
+	padding:30px;
+	margin-left: 384px;
+	margin-bottom: 20px;
+	margin-top: 330px;
+}
+#deletebtn{
+	font-size: 30px ;
+	background-color: white;
+	font-family: "New Century Schoolbook",TeX Gyre Schola, serif
+	padding:30px;
+	margin-left: 514px;
+	margin-top: 40px;
+}
+#title{
+	position: relative;
+	top: 95px;
+	right:-1630px;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Bradley Hand, cursive;
+}
+#list{
+	font-size: 20px;
+}
